@@ -1,24 +1,27 @@
-#Greenfoot project file
-class.MyWorld.image=house-02.png
-class.MyWorld.superclass=greenfoot.World
-mainWindow.height=574
-mainWindow.width=856
-mainWindow.x=75
-mainWindow.y=68
-package.numDependencies=0
-package.numTargets=1
-project.charset=UTF-8
-target1.editor.height=700
-target1.editor.width=900
+#Greenfoot properties
+#Fri Dec 08 10:09:24 JST 2017
 target1.editor.x=105
-target1.editor.y=72
+target1.type=ClassTarget
+project.charset=UTF-8
+mainWindow.height=574
+class.A.superclass=greenfoot.Actor
+version=2.7.1
+class.MyWorld.image=house-02.png
+target1.typeParameters=
+class.A.image=fish1.png
+world.lastInstantiated=MyWorld
+class.MyWorld.superclass=greenfoot.World
 target1.height=50
+mainWindow.y=68
+target1.width=80
+mainWindow.x=75
+target1.editor.height=700
+package.numDependencies=0
+target1.editor.width=900
+target1.y=10
+target1.x=70
+package.numTargets=1
+mainWindow.width=856
 target1.name=MyWorld
 target1.showInterface=false
-target1.type=ClassTarget
-target1.typeParameters=
-target1.width=80
-target1.x=70
-target1.y=10
-version=2.7.1
-world.lastInstantiated=MyWorld
+target1.editor.y=72
