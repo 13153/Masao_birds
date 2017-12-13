@@ -1,4 +1,7 @@
 #Greenfoot project file
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=c950b9049bf33e6fe0a2db2ba01a9b7ec96e874d
 class.B.image=fish1.png
 class.B.superclass=greenfoot.Actor
 class.MyWorld.image=house-02.png
