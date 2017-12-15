@@ -1,0 +1,21 @@
+#Greenfoot properties
+#Fri Dec 15 09:47:09 JST 2017
+target1.type=ClassTarget
+project.charset=UTF-8
+mainWindow.height=546
+version=2.7.1
+class.MyWorld.image=bathroom-tile.jpg
+target1.typeParameters=
+world.lastInstantiated=MyWorld
+class.MyWorld.superclass=greenfoot.World
+target1.height=50
+mainWindow.y=68
+target1.width=80
+mainWindow.x=75
+package.numDependencies=0
+target1.y=10
+target1.x=70
+package.numTargets=1
+mainWindow.width=856
+target1.name=MyWorld
+target1.showInterface=false
