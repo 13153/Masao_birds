@@ -27,7 +27,7 @@ public class MyWorld extends World
         addObject(new l3_Wall(),400,600); //下障害物 後回し
         
     } 
-  
-    
-
 }
+   
+
+
