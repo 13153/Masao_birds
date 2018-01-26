@@ -17,7 +17,7 @@ public class Masao extends Actor
     int a = 0;
     public void act() 
     {
-        getWorld().showText( "jump"+jump+"scount"+scount, 100, 50 );   
+   
         /*if(scount <= 10){
             if( Greenfoot.isKeyDown( "space" ) && jump>=20 ){
                 jump=0;
@@ -40,6 +40,7 @@ public class Masao extends Actor
         {
             setRotation(-90);
             move(15);
+            setRotation(90);
             jump++;
             a = 1;
         }
@@ -47,8 +48,19 @@ public class Masao extends Actor
         {
             setRotation(90);
             move(10);
+            setRotation(-90);
             a = 0;
         }
-        
+       
+       //判定処理
+       int x = getX();
+       int y = getY();
+         
+       Actor actor = getOneObjectAtOffset( 0, 0, l3_Wall.class );
+       if( actor != null || y==0 || y == 599){
+           // Masao とぶつかった時の処理を書く
+           World w = new Gameover();
+            Greenfoot.setWorld(w);
+        }  
     }    
 }
