@@ -23,10 +23,11 @@ public class l3_Wall extends Actor
         
         if(x<=0){
             move(800);
+            
             tuka++;
         }
         
-        if(tuka == 10){
+        if(tuka == 5){
             getWorld().showText( "卒おめ！", 200, 50 ); 
         }
     }    

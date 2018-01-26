@@ -14,9 +14,11 @@ public class Masao extends Actor
      */
     int scount = 0;
     int jump = 15;
-    int a = 0;
+    private boolean flag_jump = false;
     public void act() 
     {
+       int x = getX();
+       int y = getY();
    
         /*if(scount <= 10){
             if( Greenfoot.isKeyDown( "space" ) && jump>=20 ){
@@ -25,36 +27,27 @@ public class Masao extends Actor
             }
         }*/
        if(Greenfoot.isKeyDown("space")){
-            scount++;
-            if( jump >= 15 && scount <= 20){
-                    jump = 0;
+            if( flag_jump == false ){
+                if( jump >= 15){
+                        jump = 0;
+                        flag_jump = true;
                 }
-        }
-        else{
-            if(a == 0){
-                scount = 0;   
              }
        }
+       else flag_jump = false;
         
         if(jump<15)
         {
-            setRotation(-90);
-            move(15);
-            setRotation(90);
+            setLocation( x,y-15 );
             jump++;
-            a = 1;
         }
         else
         {
-            setRotation(90);
-            move(10);
-            setRotation(-90);
-            a = 0;
+            setLocation( x,y+15 );
         }
        
        //判定処理
-       int x = getX();
-       int y = getY();
+      
          
        Actor actor = getOneObjectAtOffset( 0, 0, l3_Wall.class );
        if( actor != null || y==0 || y == 599){
