@@ -12,8 +12,22 @@ public class l3_Wall extends Actor
      * Act - do whatever the l3_Wall wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
+    int tuka = 0;
     public void act() 
     {
-        // Add your action code here.
+        getWorld().showText( "tuka"+tuka, 100, 50 );   
+        move(-6);
+        
+        int x = getX();
+        
+        if(x<=0){
+            move(800);
+            tuka++;
+        }
+        
+        if(tuka == 10){
+            getWorld().showText( "卒おめ！", 200, 50 ); 
+        }
     }    
 }
