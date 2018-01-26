@@ -21,9 +21,9 @@ public class Title extends World
         
     }
     public void act(){
-           if(Greenfoot.isKeyDown("space")){
-               World w = new MyWorld();
-               Greenfoot.setWorld(w);
-           }
+        if(Greenfoot.isKeyDown("space")){
+            World w = new MyWorld();
+            Greenfoot.setWorld(w);
+          }
     }
 }
