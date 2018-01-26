@@ -27,8 +27,9 @@ public class l3_Wall extends Actor
             tuka++;
         }
         
-        if(tuka == 5){
-            getWorld().showText( "卒おめ！", 200, 50 ); 
+        if(tuka == 2){
+           World w = new clear();
+            Greenfoot.setWorld(w);
         }
     }    
 }
