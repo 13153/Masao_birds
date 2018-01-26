@@ -16,7 +16,7 @@ public class l3_Wall extends Actor
     int tuka = 0;
     public void act() 
     {
-        getWorld().showText( "tuka"+tuka, 100, 50 );   
+        
         move(-6);
         
         int x = getX();
@@ -27,8 +27,8 @@ public class l3_Wall extends Actor
             tuka++;
         }
         
-        if(tuka == 2){
-           World w = new clear();
+        if(tuka == 5){
+           World w = new Clear();
             Greenfoot.setWorld(w);
         }
     }    
