@@ -13,17 +13,19 @@ public class l3_Wall extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    int tuka = 0;
+    private int tuka = 0;
+    public l3_Wall(){
+        int tuka = 0;
+    }
     public void act() 
     {
         
-        move(-6);
-        
+        move(-5);
+        getWorld().showText("tuka:"+tuka,50,100);
         int x = getX();
-        
+        int y = getY();
         if(x<=0){
             move(800);
-            
             tuka++;
         }
         
