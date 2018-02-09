@@ -1,13 +1,8 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
-<<<<<<< HEAD
->>>>>>>=46b83cc03d48af749a5a74ca7e6fb2076ea52789
-class.Clear.image=clear.jpeg
-=======
->>>>>>>=cb45d0d7936fa73723a59cf25f4b6ae0433ce425
+>>>>>>>=01d9c69dd45dfae8d5755e157fae6157cd10f7b6
 class.Clear.image=owari.jpeg
->>>>>>> 01d9c69dd45dfae8d5755e157fae6157cd10f7b6
 class.Clear.superclass=greenfoot.World
 class.Gameover.image=gameover.jpeg
 class.Gameover.superclass=greenfoot.World
@@ -133,8 +128,4 @@ target6.width=80
 target6.x=70
 target6.y=10
 version=2.7.1
-<<<<<<< HEAD
-world.lastInstantiated=MyWorld
-=======
-world.lastInstantiated=Gameover
->>>>>>> 01d9c69dd45dfae8d5755e157fae6157cd10f7b6
+world.lastInstantiated=Title
