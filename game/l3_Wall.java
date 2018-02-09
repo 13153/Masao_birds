@@ -21,7 +21,7 @@ public class l3_Wall extends Actor
     {
         
         move(-5);
-   
+        getWorld().showText("スタート!",100,50);
         int x = getX();
         int y = getY();
         if(x<=0){
