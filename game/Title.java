@@ -24,6 +24,7 @@ public class Title extends World
         if(Greenfoot.isKeyDown("space")){
             World w = new MyWorld();
             Greenfoot.setWorld(w);
+            Greenfoot.delay(150);
           }
     }
 }
