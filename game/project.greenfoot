@@ -1,8 +1,13 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
 >>>>>>>=46b83cc03d48af749a5a74ca7e6fb2076ea52789
 class.Clear.image=clear.jpeg
+=======
+>>>>>>>=cb45d0d7936fa73723a59cf25f4b6ae0433ce425
+class.Clear.image=owari.jpeg
+>>>>>>> 01d9c69dd45dfae8d5755e157fae6157cd10f7b6
 class.Clear.superclass=greenfoot.World
 class.Gameover.image=gameover.jpeg
 class.Gameover.superclass=greenfoot.World
@@ -10,7 +15,7 @@ class.Masao.image=man01.png
 class.Masao.superclass=greenfoot.Actor
 class.MyWorld.image=bathroom-tile.jpg
 class.MyWorld.superclass=greenfoot.World
-class.Title.image=index.jpg
+class.Title.image=start.jpeg
 class.Title.superclass=greenfoot.World
 class.l3_Wall.image=l3.jpg
 class.l3_Wall.superclass=greenfoot.Actor
@@ -91,10 +96,10 @@ target3.y=70
 target4.editor.height=700
 target4.editor.width=900
 target4.editor.x=105
-target4.editor.y=52
+target4.editor.y=44
 target4.height=50
 target4.name=Clear
-target4.naviview.expanded=true
+target4.naviview.expanded=false
 target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
@@ -128,4 +133,8 @@ target6.width=80
 target6.x=70
 target6.y=10
 version=2.7.1
+<<<<<<< HEAD
 world.lastInstantiated=MyWorld
+=======
+world.lastInstantiated=Gameover
+>>>>>>> 01d9c69dd45dfae8d5755e157fae6157cd10f7b6
