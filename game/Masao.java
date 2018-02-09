@@ -13,22 +13,16 @@ public class Masao extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     int scount = 0;
-    int jump = 15;
+    int jump = 6;
     private boolean flag_jump = false;
     public void act() 
     {
        int x = getX();
        int y = getY();
-   
-        /*if(scount <= 10){
-            if( Greenfoot.isKeyDown( "space" ) && jump>=20 ){
-                jump=0;
-            
-            }
-        }*/
+
        if(Greenfoot.isKeyDown("space")){
             if( flag_jump == false ){
-                if( jump >= 15){
+                if( jump >= 12){
                         jump = 0;
                         flag_jump = true;
                 }
@@ -36,14 +30,14 @@ public class Masao extends Actor
        }
        else flag_jump = false;
         
-        if(jump<15)
+        if(jump<12)
         {
-            setLocation( x,y-15 );
+            setLocation( x,y-12 );
             jump++;
         }
         else
         {
-            setLocation( x,y+15 );
+            setLocation( x,y+12 );
         }
        
        //判定処理
